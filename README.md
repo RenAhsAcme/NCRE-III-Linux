@@ -2,6 +2,8 @@
 
 个人整理不易，点个 Star 鼓励一下~
 
+<a href="https://github.com/RenAhsAcme/NCRE-III-Linux">计算机三级 Linux 备考资料 - 刃律</a> © 2026 by <a href="https://github.com/RenAhsAcme">刃律 RenAhsAcme</a> is licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International</a><img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;" width="19.197917938232422" height="19.197917938232422"><img src="https://mirrors.creativecommons.org/presskit/icons/by.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;" width="19.197917938232422" height="19.197917938232422"><img src="https://mirrors.creativecommons.org/presskit/icons/nc.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;" width="19.197917938232422" height="19.197917938232422"><img src="https://mirrors.creativecommons.org/presskit/icons/sa.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;" width="19.197917938232422" height="19.197917938232422"><font class="notranslate immersive-translate-target-wrapper" lang="zh-CN"><br><font class="notranslate immersive-translate-target-translation-theme-none immersive-translate-target-translation-block-wrapper-theme-none immersive-translate-target-translation-block-wrapper" data-immersive-translate-translation-element-mark="1"><font class="notranslate immersive-translate-target-inner immersive-translate-target-translation-theme-none-inner" data-immersive-translate-translation-element-mark="1">计算机三级 Linux 备考资料 - 刃律 © 2026 by 刃律 RenAhsAcme 采用知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议授权 <img height="19.197917938232422" width="19.197917938232422" style="max-width: 1em;max-height:1em;margin-left: .2em;" alt="" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg"> <img height="19.197917938232422" width="19.197917938232422" style="max-width: 1em;max-height:1em;margin-left: .2em;" alt="" src="https://mirrors.creativecommons.org/presskit/icons/by.svg"> <img height="19.197917938232422" width="19.197917938232422" style="max-width: 1em;max-height:1em;margin-left: .2em;" alt="" src="https://mirrors.creativecommons.org/presskit/icons/nc.svg"> <img height="19.197917938232422" width="19.197917938232422" style="max-width: 1em;max-height:1em;margin-left: .2em;" alt="" src="https://mirrors.creativecommons.org/presskit/icons/sa.svg"> </font></font></font>
+
 ## 计算机硬件常识
 
 ### 冯·诺依曼体系结构
@@ -1763,3 +1765,4 @@ Linux 中负责收集、处理和记录日志的标准系统服务是 `rsyslogd`
 - **NAT**：虚拟机通过物理主机的网络地址转换（NAT）功能访问外网，虚拟机和物理主机通常不在同一网段（它们共用一个虚拟交换机，物理主机作为网关）；
 
 - **仅主机（Host-Only）**：虚拟机只能与物理主机以及同一仅主机网络内的其它虚拟机通信，无法访问外网。
+
