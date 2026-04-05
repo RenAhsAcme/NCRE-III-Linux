@@ -1,0 +1,44 @@
+name: 功能请求 (Chinese Ver.)
+description: 提出一项新的功能，且我暂时没有能力或精力实现。
+title: "feature: 实现更长的生命周期  Feature: Enables a longer lifecycle"
+labels: ["改进 enhancement", "中文 Chinese"]
+body:
+  - type: markdown
+    attributes: 
+      value: |
+        
+        > [!important]
+        > 重要：如果您想要提出 **多项功能**，请为每一个功能开一个单独的 issue。
+        
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: 检查清单
+      description: 在提交 Issue 之前，请先检查：
+      options:
+        - label: 我已查看所有正在进行的开发分支（一般为 dev）和 PR，确认该需求未正在实现或已经实现。我也已在 [Issues](https://github.com/RenAhsAcme/Personal_Template_Base/issues) 中检索，确认该 Issue 无人报告。
+          required: true
+        - label: 我认为该功能是用户广泛需要的，适合纳入主线而不是作为其它补充的。
+          required: true
+        - label: 我已仔细阅读过选项内容，知晓该选项不应勾选。
+        - label: 我已知晓功能请求可能需要比较久的时间才能实现。
+          required: true
+  - type: markdown
+    attributes: 
+      value: |
+        > [!note]
+        > 上传附件时**请使用 GitHub 的附件系统上传附件**，不接受第三方链接。多个文件可打包后 zip 格式后上传。
+  - type: textarea
+    id: back
+    attributes:
+      label: 背景与动机
+      description: 为什么需要该功能？该功能对你和其他用户有多重要？
+    validations:
+      required: true
+  - type: textarea
+    id: req
+    attributes:
+      label: 想要实现或优化的功能
+      description: 详细描述期望实现的功能。
+    validations:
+      required: true

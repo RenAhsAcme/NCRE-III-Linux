@@ -1,0 +1,78 @@
+name: Bug Report
+description: I encountered a bug while using this project, and I do not have the ability or energy to fix it at the moment.
+title: "bug: 某数组访问发生越界  bug: An array access went out of bounds."
+labels: ["bug 漏洞", "English"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for your bug report. Please describe the issue you are reporting briefly.
+        
+        > [!important]
+        > If you want to report **multiple bugs**, please open multiple issues, and each issue should describe only one bug.
+        
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Checklist
+      description: "Before submitting an issue, please check the following:"
+      options:
+        - label: I have updated to the latest release version for testing and checked all ongoing development branches (usually dev), confirming that the issue is still reproducible. I have also searched the [Issues](https://github.com/RenAhsAcme/Personal_Template_Base/issues) and confirmed that no one has reported this issue.
+          required: true
+        - label: I have carefully read the options and know that this option should not be checked.
+        - label: I acknowledge and agree that I will only submit software issues in the Issue section, and not send any other irrelevant information.
+          required: true
+        - label: I have confirmed that the question I submitted is not security in nature, and disclosing it will not cause a security incident, threaten community safety, or disclose the privacy of others. If security issues are involved, you should refer to the repository's security guidelines and submit a private report.
+          required: true
+  - type: markdown
+    attributes: 
+      value: |
+        ### Bug Information
+
+        Describe the bug you encountered. You need to upload screenshots, screen recordings, stack traces, logs, and other materials to help the developers track down the issue.
+
+        > [!note]
+        > When uploading attachments, **please use GitHub's attachment system**; third-party links are not accepted. Multiple files can be packaged into a zip file and then uploaded.
+
+  - type: textarea
+    id: excepted
+    attributes:
+      label: Expected Behavior
+      description: Describe in detail the behavior you expect to occur, highlighting the differences from your current (potentially incorrect) behavior.
+    validations:
+      required: true
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: Actual Results
+      description: The actual actions that occurred.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce-steps
+    attributes:
+      label: Reproducing Steps
+      description: Provide a detailed description of how to trigger the bug again.
+    validations:
+      required: true
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshot/Screen Recording
+      description: Please provide screenshots or screen recordings that can further describe your problem.
+    validations:
+      required: true
+  - type: textarea
+    id: stacktrace
+    attributes:
+      label: Diagnostic Log
+      description: Please paste all relevant diagnostic logs generated here.
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: System Environment
+      description: Please describe your system environment in as much detail as possible, including any potentially relevant factors.
+    validations:
+      required: true

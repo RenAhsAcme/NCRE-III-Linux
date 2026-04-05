@@ -1,0 +1,10 @@
+# 保护基础资产仅有我本人控制。
+*                @RenAhsAcme
+/.github/        @RenAhsAcme
+/.gitignore      @RenAhsAcme
+/CITATION.cff    @RenAhsAcme
+/LICENSE         @RenAhsAcme
+/LICENSE_CC      @RenAhsAcme
+/README_Local.md @RenAhsAcme
+/SECURITY/       @RenAhsAcme
+/SECURITY.md     @RenAhsAcme
