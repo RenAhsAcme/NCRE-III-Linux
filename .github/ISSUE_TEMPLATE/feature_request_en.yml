@@ -1,0 +1,45 @@
+name: Feature Request
+description: I propose a new feature, but I don't have the ability or energy to implement it at the moment.
+title: "feature: 实现更长的生命周期  Feature: Enables a longer lifecycle"
+labels: ["改进 enhancement", "English"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        
+        > [!important]
+        > If you want to propose **multiple features**, please create a separate issue for each feature.
+        
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Checklist
+      description: "Before submitting an issue, please check the following:"
+      options:
+        - label: I have reviewed all ongoing development branches (usually dev) and PRs, and confirmed that this requirement is either not being implemented or has already been implemented. I have also searched the [Issues](https://github.com/RenAhsAcme/Personal_Template_Base/issues) and confirmed that this issue has not been reported.
+          required: true
+        - label: I believe this feature is widely needed by users and is suitable to be included in the main storyline rather than as a supplement to others.
+          required: true
+        - label: I have carefully read the options and know that this option should not be checked.
+        - label: I am aware that the feature request may take a considerable amount of time to be implemented.
+          required: true
+  - type: markdown
+    attributes: 
+      value: |
+        > [!note]
+        > When uploading attachments, **please use GitHub's attachment system**; third-party links are not accepted. Multiple files can be packaged into a zip file and then uploaded.
+  - type: textarea
+    id: back
+    attributes:
+      label: Background and Motivation
+      description: Why do we need this feature? How important is it to you and other users?
+    validations:
+      required: true
+  - type: textarea
+    id: req
+    attributes:
+      label: Features to be implemented or optimized
+      description: Describe in detail the functionality you wish to achieve.
+    validations:
+      required: true
+      

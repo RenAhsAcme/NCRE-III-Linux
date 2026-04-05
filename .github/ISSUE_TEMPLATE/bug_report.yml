@@ -1,0 +1,78 @@
+name: Bug 反馈 (Chinese Ver.)
+description: 在使用本项目的过程中遇到了 Bug，且我暂时没有能力或精力解决。
+title: "bug: 某数组访问发生越界  bug: An array access went out of bounds."
+labels: ["bug 漏洞", "中文 Chinese"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        感谢您进行 Bug 反馈。请使用简短的语句表述您要反馈的问题。
+        
+        > [!important]
+        > 如果要提出**多个 Bug**，请打开多个 Issue，每个 Issue 应仅描述一个 Bug。
+        
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: 检查清单
+      description: 在提交 Issue 之前，请先检查：
+      options:
+        - label: 我已更新到最新 Release 版本测试，并已查看所有正在进行的开发分支（一般为 dev），确认该问题仍可复现。我也已在 [Issues](https://github.com/RenAhsAcme/Personal_Template_Base/issues) 中检索，确认该 Issue 无人报告。
+          required: true
+        - label: 我已仔细阅读过选项内容，知晓该选项不应勾选。
+        - label: 我已知晓并同意，我只在 Issue 中提交软件中存在的问题，而不是发送其它无关信息。
+          required: true
+        - label: 我已确认我提交的问题不具有安全性质，披露它不会造成安全事件、威胁社区安全以及泄露其他人的隐私。如果涉及安全问题，你应当参照仓库的安全指引使用私密报告提交。
+          required: true
+  - type: markdown
+    attributes: 
+      value: |
+        ### Bug 信息
+
+        描述您遇到的 Bug。您需要同时上传截图、录屏、堆栈跟踪、日志等材料，便于开发者追踪问题。
+
+        > [!note]
+        > 上传附件时**请使用 GitHub 的附件系统上传附件**，不接受第三方链接。多个文件可打包后 zip 格式后上传。
+        
+  - type: textarea
+    id: excepted
+    attributes:
+      label: 期望的行为
+      description: 详细的描述你期望发生的行为，突出与目前（可能不正确的）行为的不同。
+    validations:
+      required: true
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: 实际结果
+      description: 实际发生的行为。
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce-steps
+    attributes:
+      label: 重现步骤
+      description: 详细描述如何操作才能再次触发该 Bug。
+    validations:
+      required: true
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: 截图/录屏
+      description: 请提供可以用来进一步描述您的问题的截图或录屏。
+    validations:
+      required: true
+  - type: textarea
+    id: stacktrace
+    attributes:
+      label: 诊断日志
+      description: 请将产生的所有相关的诊断日志粘贴到此处。
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: 系统环境
+      description: 请尽可能详细地描述您所在的系统环境，以及可能相关的因素。
+    validations:
+      required: true

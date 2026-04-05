@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+- name: "RenAhsAcme"
+title: "Personal_Template_Base"
+version: 1.0.0
+date-released: 2026-04-04
+url: "https://github.com/RenAhsAcme/Personal_Template_Base"
+license: GPL-3.0-only
+keywords:
+  - template
+  - github
+  - project-setup
