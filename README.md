@@ -6,10 +6,6 @@
 
 ---
 
-**提示：GitHub 上该仓库的 Issue 将被关闭。若您想要勘误或提交补充，请直接 Pull Request，对文件完成修改并附上您的修改理由。该仓库未处于 Archived 状态时，将持续处理所有请求。请注意：在适用的情况下，请使用 Ubuntu (Default) - Windows Subsystem for Linux（Windows 11）复现作为说明，其它的 Linux Distribution 不被接受；请使用 Wikipedia 等全球性的权威资料来源作为资料说明；对于过时的技术细节，或无法在指定的 Linux Distribution 上复现的内容，如未在往年真题涉及，将不被接受。再次感谢您做出的贡献，谢谢！**
-
----
-
 ## 计算机硬件常识
 
 ### 冯·诺依曼体系结构
